@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Make and details</title>
+    <style>
+        body{
+            margin: 0;
+            height: 200vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #f0f2f5;
+        }
+        .card{
+            width: 300px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+            overflow: hidden;
+            transition: 0.3s;
+        }
+        .card:hover{
+            transform: scale(110%);
+        }
+        .card-content{
+            padding: 15px;
+        }
+        .card-content h2{
+            margin: 0 0 10px;
+        }
+        .card-content p{
+            margin: 14px;
+            color: #555;
+        }
+        .card-content button{
+            padding: 8px 15px;
+            background: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .card-content button:hover{
+            background: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://cdn.stocksnap.io/img-thumbs/280h/enchanting-forest_1CFKSWRR5X.jpg" alt="Card image">
+        <div class="card-content">
+            <h2>Card Title</h2>
+            <p><b>This is a my fast card design and i build it to give my best</b></p>
+            <button>Read More</button>
+        </div>
+    </div>
+</body>
+</html>
